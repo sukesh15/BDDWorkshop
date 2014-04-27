@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * Time: 12:22 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ShippingPage {
+public class ShippingPage extends TargetBasePage {
 
     WebDriver driver;
 
@@ -23,13 +23,12 @@ public class ShippingPage {
     private WebElement shippingSubmitButton;
 
     public ShippingPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
 
     public void proceedWithDefaultShippingAddress() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(shippingSubmitButton));
+        waitForElementToBeClickable(shippingSubmitButton);
         shippingSubmitButton.click();
     }
 

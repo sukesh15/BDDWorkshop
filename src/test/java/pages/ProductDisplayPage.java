@@ -7,12 +7,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class ProductDisplayPage {
+public class ProductDisplayPage extends TargetBasePage {
 
     WebDriver driver;
 
     public ProductDisplayPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     @FindBy(id = "addToCart")
@@ -30,8 +30,7 @@ public class ProductDisplayPage {
     }
 
     public void continueShopping() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(continueShoppingLink));
+        waitForElementToBeClickable(continueShoppingLink);
         continueShoppingLink.click();
     }
 

@@ -15,12 +15,12 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class CartViewPage {
+public class CartViewPage extends TargetBasePage {
 
     WebDriver driver;
 
     public CartViewPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     @FindBy(id = "checkOutLink")
@@ -47,14 +47,12 @@ public class CartViewPage {
 
     public void proceedToCheckOut() {
         proceedToCheckOutLink.click();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(saveAndContinue));
+        waitForElementToBeClickable(saveAndContinue);
         saveAndContinue.click();
     }
 
     public void continueAsNewGuest() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(continueButton));
+        waitForElementToBeClickable(continueButton);
         continueButton.click();
     }
 
@@ -72,21 +70,6 @@ public class CartViewPage {
 
     public void returnToShopping() {
         driver.findElement(By.cssSelector("a[title='go back to shopping']")).click();
-    }
-
-    private void removeTheLastItem() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("remove item")));
-        driver.findElement(By.linkText("remove item")).click();
-        wait.until(ExpectedConditions.not(ExpectedConditions.visibilityOf(proceedToCheckOutLink)));
-    }
-
-    private boolean cartIsNotEmpty() {
-        return !driver.findElement(By.cssSelector("div.cartDetails")).getText().equals("your cart is empty");
-    }
-
-    public int getOrderQuantity() {
-        return Integer.parseInt(driver.findElement(By.cssSelector("a[id='mini-cart-icon'] span.count")).getText());
     }
 
     private List<WebElement> getRemoveItemLinkElements() {
