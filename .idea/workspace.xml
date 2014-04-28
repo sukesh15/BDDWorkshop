@@ -15,13 +15,13 @@
     <file path="$USER_HOME$/Spree_WebDriver_BDD/src/tests/resources/spree/cucumber/tests/ShoppingList.Feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396349351992" ignored="false" />
     <file path="/ShoppingList.Feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396349351992" ignored="false" />
     <file path="/TargetE2E.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398144691255" ignored="false" />
-    <file path="/SearchSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398423772681" ignored="false" />
+    <file path="/SearchSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398660093164" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/PageStore/java.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396415944713" ignored="false" />
     <file path="/BaseSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398357375209" ignored="false" />
     <file path="/LandingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398406223413" ignored="false" />
     <file path="/SearchListPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396609952826" ignored="false" />
     <file path="/ProductDisplaySteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1397834847554" ignored="false" />
-    <file path="/ProductDisplayPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398612213981" ignored="false" />
+    <file path="/ProductDisplayPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398661200926" ignored="false" />
     <file path="/BasePage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396591245503" ignored="false" />
     <file path="/PageStore.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398349447866" ignored="false" />
     <file path="/CheckOutSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398408773277" ignored="false" />
@@ -30,8 +30,9 @@
     <file path="/.name" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396946691693" ignored="false" />
     <file path="/BillingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398424069234" ignored="false" />
     <file path="/CartViewSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1397835539498" ignored="false" />
-    <file path="/DataDrivenExample.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398409015885" ignored="false" />
+    <file path="/DataDrivenExample.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398659932936" ignored="false" />
     <file path="/ShippingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398612168445" ignored="false" />
+    <file path="/RunCukesTest.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398661515361" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,43 +148,54 @@
       <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="10" column="55" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BillingPage.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RunCukesTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="47" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="12" selection-start="789" selection-end="789" vertical-scroll-proportion="0.6034483">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetE2E.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="50" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDisplaySteps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductDisplaySteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BillingPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/BillingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="45" selection-start="524" selection-end="524" vertical-scroll-proportion="0.04608295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TargetBasePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TargetBasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ShippingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchListPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchListPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="38" selection-start="677" selection-end="699" vertical-scroll-proportion="0.0">
+            <state line="17" column="45" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +204,7 @@
       <file leaf-file-name="ProductDisplayPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductDisplayPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+            <state line="45" column="63" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,16 +222,7 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuestDetailsPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/GuestDetailsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="67" column="0" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,7 +231,7 @@
       <file leaf-file-name="SearchSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+            <state line="96" column="64" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,22 +247,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.idea/.name" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/GuestDetailsPage.java" />
-        <option value="$PROJECT_DIR$/.project" />
         <option value="$PROJECT_DIR$/src/test/java/TargetE2E.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CartViewSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/ProductDisplaySteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/PageStore.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/BaseSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CheckOutSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BillingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataDrivenExample.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ShippingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ProductDisplayPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/CartViewPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ProductDisplaySteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProductDisplayPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -303,8 +306,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="55" />
+    <option name="y" value="22" />
+    <option name="width" value="1225" />
+    <option name="height" value="671" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -333,7 +338,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -438,6 +442,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +455,7 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -744,7 +749,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="55" y="22" width="1225" height="671" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -759,7 +764,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67150635" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.73789173" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24936387" sideWeight="0.73789173" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26210827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -843,65 +848,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductDisplaySteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PageStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/BaseSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/CartViewSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="797" selection-end="871" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/CheckOutSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="64" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="64" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/TargetBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="41" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -916,20 +875,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchListPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="38" selection-start="677" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductDisplayPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -950,7 +895,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BillingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="524" selection-end="524" vertical-scroll-proportion="0.04608295">
+        <state line="17" column="45" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductDisplaySteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="64" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductDisplayPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="63" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="55" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="47" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="12" selection-start="789" selection-end="789" vertical-scroll-proportion="0.6034483">
           <folding />
         </state>
       </provider>

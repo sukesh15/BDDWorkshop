@@ -24,6 +24,8 @@ public class ProductDisplayPage extends TargetBasePage {
     @FindBy(id = "mini-cart-icon")
     private WebElement shoppingCart;
 
+    @FindBy(css = "input.quantity")
+    private WebElement itemQuantityTextBox;
 
     public void addItemToCart() {
         addToCart.click();
@@ -39,4 +41,8 @@ public class ProductDisplayPage extends TargetBasePage {
     }
 
 
+    public void enterNumberOfItemsToBeAddedAs(int quantity) {
+        itemQuantityTextBox.clear();
+        itemQuantityTextBox.sendKeys(String.valueOf(quantity));
+    }
 }

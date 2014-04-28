@@ -19,7 +19,6 @@ public class ProductDisplaySteps extends BaseSteps{
         pageStore.get(ProductDisplayPage.class).goToShoppingCart();
     }
 
-
 //    @And("^he adds the selected item to the cart$")
 //    public void he_adds_the_selected_item_to_the_cart() throws Throwable {
 //        pageStore.get(ProductDisplayPage.class).addItemToCart();

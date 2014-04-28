@@ -39,7 +39,7 @@ public class SearchSteps extends BaseSteps {
     }
 
 
-    @And("^he adds the selected item to the cart$")
+    @And("^he adds the selected item to his cart$")
     public void he_adds_the_selected_item_to_the_cart() throws Throwable {
         pageStore.get(ProductDisplayPage.class).addItemToCart();
     }
@@ -60,7 +60,6 @@ public class SearchSteps extends BaseSteps {
     @Given("^user logs in to the website with (.*) and (.*)$")
     public void user_logs_in_to_the_website_with_username_and_password(String username, String password) throws Throwable {
         pageStore.get(LandingPage.class).loginToWebsiteWith(username, password);
-        clearCartIfNeeded();
     }
 
     private void clearCartIfNeeded() {
@@ -88,10 +87,14 @@ public class SearchSteps extends BaseSteps {
         he_selects_from_the_search_results(itemTitle);
     }
 
-    @And("^i am trying a new step$")
-    public void i_am_trying_a_new_step() throws Throwable {
-        // Express the Regexp above with the code you wish you had
-        ;
+    @And("^clears the cart if there are existing items$")
+    public void clears_the_cart_if_there_are_existing_items() throws Throwable {
+        clearCartIfNeeded();
+    }
+
+    @And("^he adds (\\d+) of the chosen item$")
+    public void he_adds_quantity_of_the_chosen_item(int quantity) throws Throwable {
+        pageStore.get(ProductDisplayPage.class).enterNumberOfItemsToBeAddedAs(quantity);
     }
 
     private class Item {

@@ -1,5 +1,6 @@
 package pages;
 
+import cucumber.api.java.en.And;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -63,4 +64,6 @@ public class LandingPage {
     public int getOrderQuantity() {
         return Integer.parseInt(driver.findElement(By.cssSelector("a[id='mini-cart-icon'] span.count")).getText());
     }
+
+
 }

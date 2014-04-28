@@ -5,9 +5,11 @@ Feature: As a registered customer
 
   Scenario Outline: : E2E flow as a registered user
     Given user logs in to the website with sukesh.kumar@target.com and target123
+    And clears the cart if there are existing items
     And he searches for <searchItemByText>
     And he selects <itemTitle> from the search results
-    And he adds the selected item to the cart
+    And he adds <quantity> of the chosen item
+    And he adds the selected item to his cart
     And he chooses to checkout
     And he proceeds to checkout
     And he chooses to proceed with the default shipping address
@@ -17,12 +19,8 @@ Feature: As a registered customer
   #    And he
 
   Examples:
-    | searchItemByText | itemTitle                                                                 | cardNumber | cardHolderName | expiryMonth | expiryYear | securityCode |
-    | ipad             | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A)                           |            |                |             |            |              |
-    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black |            |                |             |            |              |
+    | searchItemByText | itemTitle                                                                 | quantity | cardNumber | cardHolderName | expiryMonth | expiryYear | securityCode |
+    | ipad             | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A)                           | 2        |            |                |             |            |              |
+    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1        |            |                |             |            |              |
 
 
-  Scenario: Demo to Anand
-    Given user logs in to the website with "anand@target.com" and "something"
-    And he searches for "ipad"
-    And i am trying a new step
