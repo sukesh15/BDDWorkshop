@@ -5,7 +5,7 @@ Feature: As a registered customer
 
   Scenario Outline: : E2E flow as a registered user
     Given user logs in to the website with sukesh.kumar@target.com and target123
-    And clears the cart if there are existing items
+#    And clears the cart if there are existing items
     And he searches for <searchItemByText>
     And he selects <itemTitle> from the search results
     And he adds <quantity> of the chosen item
