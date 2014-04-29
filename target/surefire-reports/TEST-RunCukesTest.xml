@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="95.984" errors="0" skipped="0" tests="11" name="RunCukesTest">
+<testsuite failures="0" time="128.21" errors="2" skipped="8" tests="22" name="RunCukesTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @E2E"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/panikumar/BDDWorkshop"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/panikumar/BDDWorkshop/target/surefire/surefirebooter8515991116308120459.jar"/>
+    <property name="surefire.real.class.path" value="/Users/panikumar/BDDWorkshop/target/surefire/surefirebooter7492181241078370880.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="/Users/panikumar/BDDWorkshop/target/surefire/surefirebooter8515991116308120459.jar /Users/panikumar/BDDWorkshop/target/surefire/surefire4431034639364976487tmp /Users/panikumar/BDDWorkshop/target/surefire/surefire4025842661997945771tmp"/>
+    <property name="sun.java.command" value="/Users/panikumar/BDDWorkshop/target/surefire/surefirebooter7492181241078370880.jar /Users/panikumar/BDDWorkshop/target/surefire/surefire3301104418952950465tmp /Users/panikumar/BDDWorkshop/target/surefire/surefire8945709208857851724tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.001" classname="Given user logs in to the website with sukesh.kumar@target.com and target123(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="Given user logs in to the website with sukesh.kumar@target.com and target123"/>
+  <testcase time="0" classname="Given user logs in to the website with sukesh.kumar@target.com and target123(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="Given user logs in to the website with sukesh.kumar@target.com and target123"/>
   <testcase time="0" classname="And clears the cart if there are existing items(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And clears the cart if there are existing items"/>
   <testcase time="0" classname="And he searches for ipad(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he searches for ipad"/>
   <testcase time="0" classname="And he selects Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) from the search results(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he selects Apple® iPad mini 16GB Wi-Fi - White "/>
@@ -70,6 +70,117 @@
   <testcase time="0" classname="And he chooses to checkout(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he chooses to checkout"/>
   <testcase time="0.001" classname="And he proceeds to checkout(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he proceeds to checkout"/>
   <testcase time="0" classname="And he chooses to proceed with the default shipping address(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he chooses to proceed with the default shipping address"/>
-  <testcase time="0" classname="And he chooses to pay with a credit card(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he chooses to pay with a credit card"/>
-  <testcase time="0.099" classname="| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |" name="| ipad | Apple® iPad mini 16GB Wi-Fi - White "/>
+  <testcase time="0.001" classname="And he chooses to pay with a credit card(| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |)" name="And he chooses to pay with a credit card"/>
+  <testcase time="0.095" classname="| ipad | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A) | 2 |  |  |  |  |  |" name="| ipad | Apple® iPad mini 16GB Wi-Fi - White "/>
+  <testcase time="0" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="Given user logs in to the website with sukesh.kumar@target.com and target123"/>
+  <testcase time="0.003" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And clears the cart if there are existing items">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: a383dbca-d051-b84d-b10f-6b6613c46208
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: a383dbca-d051-b84d-b10f-6b6613c46208
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at pages.CartViewPage.returnToShopping(CartViewPage.java:70)
+	at steps.SearchSteps.clearCartIfNeeded(SearchSteps.java:83)
+	at steps.SearchSteps.clears_the_cart_if_there_are_existing_items(SearchSteps.java:103)
+	at ✽.And clears the cart if there are existing items(DataDrivenExample.feature:8)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+</error>
+    <system-out>order qty is --- 2
+</system-out>
+  </testcase>
+  <testcase time="0.007" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: a383dbca-d051-b84d-b10f-6b6613c46208
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: a383dbca-d051-b84d-b10f-6b6613c46208
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at pages.CartViewPage.returnToShopping(CartViewPage.java:70)
+	at steps.SearchSteps.clearCartIfNeeded(SearchSteps.java:83)
+	at steps.SearchSteps.clears_the_cart_if_there_are_existing_items(SearchSteps.java:103)
+	at ✽.And clears the cart if there are existing items(DataDrivenExample.feature:8)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[title=&apos;go back to shopping&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Panis-MacBook-Pro.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/lx/g2qlzvkj4wbgkpq29px6yxqh0000gn/T/anonymous7821149993890533829webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+</error>
+  </testcase>
+  <testcase time="0.028" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he searches for canon powershot">
+    <skipped/>
+  </testcase>
+  <testcase time="0.03" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he selects Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black from the search results">
+    <skipped/>
+  </testcase>
+  <testcase time="0.031" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he adds 1 of the chosen item">
+    <skipped/>
+  </testcase>
+  <testcase time="0.032" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he adds the selected item to his cart">
+    <skipped/>
+  </testcase>
+  <testcase time="0.033" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he chooses to checkout">
+    <skipped/>
+  </testcase>
+  <testcase time="0.033" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he proceeds to checkout">
+    <skipped/>
+  </testcase>
+  <testcase time="0.034" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he chooses to proceed with the default shipping address">
+    <skipped/>
+  </testcase>
+  <testcase time="0.035" classname="| canon powershot | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1 |  |  |  |  |  |" name="And he chooses to pay with a credit card">
+    <skipped/>
+  </testcase>
 </testsuite>

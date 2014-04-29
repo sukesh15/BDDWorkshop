@@ -146,10 +146,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+            <state line="17" column="65" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33376962">
               <folding />
             </state>
           </provider>
@@ -218,10 +218,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.2735602">
+            <state line="27" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,9 +259,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/TargetE2E.feature" />
         <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
       </list>
     </option>
   </component>
@@ -919,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="55" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
@@ -935,7 +928,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.2735602">
+        <state line="27" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="65" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33376962">
           <folding />
         </state>
       </provider>
