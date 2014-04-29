@@ -17,7 +17,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class ShippingPage extends TargetBasePage {
 
-    WebDriver driver;
 
     @FindBy(id = "shipping-submit")
     private WebElement shippingSubmitButton;

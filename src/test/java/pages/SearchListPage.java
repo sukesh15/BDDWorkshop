@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import steps.BaseSteps;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,11 +12,10 @@ import steps.BaseSteps;
  * Time: 8:34 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SearchListPage {
-    WebDriver driver;
+public class SearchListPage extends TargetBasePage{
 
     public SearchListPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     @FindBy(id="prodTitle-slp_medium-1-1")

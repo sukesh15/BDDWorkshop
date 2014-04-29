@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductDisplayPage extends TargetBasePage {
 
-    WebDriver driver;
 
     public ProductDisplayPage(WebDriver driver) {
         super(driver);

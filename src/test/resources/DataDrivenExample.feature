@@ -1,4 +1,4 @@
-@E2E, @Checkout
+@E2E
 Feature: As a registered customer
   I want to be able to search for an item
   So that i can buy the same

@@ -1,11 +1,9 @@
 package pages;
 
-import cucumber.api.java.en.And;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import steps.BaseSteps;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,12 +12,11 @@ import steps.BaseSteps;
  * Time: 10:58 AM
  * To change this template use File | Settings | File Templates.
  */
-public class LandingPage {
+public class LandingPage extends TargetBasePage {
 
-    WebDriver driver;
 
     public LandingPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     @FindBy(id = "searchTerm")

@@ -6,12 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import steps.CheckOutSteps;
 
-public class GuestDetailsPage {
+public class GuestDetailsPage extends TargetBasePage {
 
-    WebDriver driver;
 
     public GuestDetailsPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     @FindBy(id = "firstName")

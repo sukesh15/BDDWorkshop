@@ -1,4 +1,4 @@
-@E2E, @Checkout
+@E2E
 Feature: As a registered customer
   I want to be able to search for an item
   So that i can buy the same
@@ -21,6 +21,6 @@ Feature: As a registered customer
   Examples:
     | searchItemByText | itemTitle                                                                 | quantity | cardNumber | cardHolderName | expiryMonth | expiryYear | securityCode |
     | ipad             | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A)                           | 2        |            |                |             |            |              |
-    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1        |            |                |             |            |              |
+#    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1        |            |                |             |            |              |
 
 

@@ -17,8 +17,6 @@ import static org.junit.Assert.assertTrue;
 
 public class CartViewPage extends TargetBasePage {
 
-    WebDriver driver;
-
     public CartViewPage(WebDriver driver) {
         super(driver);
     }
