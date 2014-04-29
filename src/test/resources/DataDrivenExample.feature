@@ -5,7 +5,7 @@ Feature: As a registered customer
 
   Scenario Outline: : E2E flow as a registered user
     Given user logs in to the website with sukesh.kumar@target.com and target123
-#    And clears the cart if there are existing items
+    And clears the cart if there are existing items
     And he searches for <searchItemByText>
     And he selects <itemTitle> from the search results
     And he adds <quantity> of the chosen item
@@ -21,6 +21,6 @@ Feature: As a registered customer
   Examples:
     | searchItemByText | itemTitle                                                                 | quantity |
     | ipad             | Apple® iPad mini 16GB Wi-Fi - White (MD531LL/A)                           | 2        |
-    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1        |
+#    | canon powershot  | Canon PowerShot SX-50 12.1MP Digital Camera with 50x Optical Zoom - Black | 1        |
 
 

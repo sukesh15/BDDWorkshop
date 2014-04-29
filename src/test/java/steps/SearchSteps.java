@@ -24,7 +24,7 @@ public class SearchSteps extends BaseSteps {
         System.out.println("launching website");
         pageStore.getDriver().get("http://www.target.com");
         System.out.println("website launched");
-        pageStore.getDriver().manage().window().maximize();
+//        pageStore.getDriver().manage().window().maximize();
     }
 
     @After
@@ -72,7 +72,7 @@ public class SearchSteps extends BaseSteps {
 
     @Given("^user logs in to the website with (.*) and (.*)$")
     public void user_logs_in_to_the_website_with_username_and_password(String username, String password) throws Throwable {
-//        pageStore.get(LandingPage.class).loginToWebsiteWith(username, password);
+        pageStore.get(LandingPage.class).loginToWebsiteWith(username, password);
     }
 
     private void clearCartIfNeeded() {
