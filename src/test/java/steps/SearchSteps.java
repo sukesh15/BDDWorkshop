@@ -21,7 +21,9 @@ public class SearchSteps extends BaseSteps {
     public void setUp() {
         System.out.println("inside setup");
         pageStore = new PageStore();
+        System.out.println("launching website");
         pageStore.getDriver().get("http://www.target.com");
+        System.out.println("website launched");
         pageStore.getDriver().manage().window().maximize();
     }
 

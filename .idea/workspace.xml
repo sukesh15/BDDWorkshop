@@ -15,7 +15,7 @@
     <file path="$USER_HOME$/Spree_WebDriver_BDD/src/tests/resources/spree/cucumber/tests/ShoppingList.Feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396349351992" ignored="false" />
     <file path="/ShoppingList.Feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396349351992" ignored="false" />
     <file path="/TargetE2E.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398760671987" ignored="false" />
-    <file path="/SearchSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398763115426" ignored="false" />
+    <file path="/SearchSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398765052819" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/PageStore/java.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396415944713" ignored="false" />
     <file path="/BaseSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398357375209" ignored="false" />
     <file path="/LandingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398763394131" ignored="false" />
@@ -146,19 +146,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="65" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33376962">
+            <state line="6" column="38" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunCukesTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RunCukesTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="6" column="54" selection-start="230" selection-end="236" vertical-scroll-proportion="0.07853403">
               <folding />
             </state>
           </provider>
@@ -230,7 +230,7 @@
       <file leaf-file-name="SearchSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="55" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
+            <state line="25" column="44" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,9 +259,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/TargetE2E.feature" />
         <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
       </list>
     </option>
   </component>
@@ -898,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="87" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
@@ -919,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="55" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
@@ -935,7 +921,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="65" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33376962">
+        <state line="6" column="38" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="230" selection-end="236" vertical-scroll-proportion="0.07853403">
           <folding />
         </state>
       </provider>
