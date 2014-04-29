@@ -1,9 +1,12 @@
 package steps;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import pages.CartViewPage;
 import pages.LandingPage;
 import pages.ProductDisplayPage;
@@ -23,8 +26,16 @@ public class SearchSteps extends BaseSteps {
     }
 
     @After
-    public void tearDown() {
+    public void tearDown(Scenario scenario) {
+        embedScreenshot(scenario);
         pageStore.destroy();
+    }
+
+    public void embedScreenshot(Scenario scenario) {
+        if (scenario.isFailed()) {
+            byte[] screenshot = ((TakesScreenshot) pageStore.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png");
+        }
     }
 
 
