@@ -18,7 +18,7 @@
     <file path="/SearchSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398765052819" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/PageStore/java.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396415944713" ignored="false" />
     <file path="/BaseSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398357375209" ignored="false" />
-    <file path="/LandingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398767811812" ignored="false" />
+    <file path="/LandingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398768637414" ignored="false" />
     <file path="/SearchListPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398760368961" ignored="false" />
     <file path="/ProductDisplaySteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1397834847554" ignored="false" />
     <file path="/ProductDisplayPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398661200926" ignored="false" />
@@ -150,7 +150,7 @@
       <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="6" column="34" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,7 +168,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+            <state line="55" column="38" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,7 +213,7 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="16" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.37037036">
+            <state line="50" column="50" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.5185185">
               <folding />
             </state>
           </provider>
@@ -222,7 +222,7 @@
       <file leaf-file-name="SearchSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="43" selection-start="2638" selection-end="2638" vertical-scroll-proportion="0.0">
+            <state line="43" column="49" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -260,9 +260,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TargetBasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/PageStore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
       </list>
     </option>
   </component>
@@ -894,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="54" selection-start="230" selection-end="236" vertical-scroll-proportion="0.0">
@@ -922,23 +915,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="38" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+        <state line="6" column="34" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="43" selection-start="2638" selection-end="2638" vertical-scroll-proportion="0.0">
+        <state line="43" column="49" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.37037036">
+        <state line="50" column="50" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.5185185">
           <folding />
         </state>
       </provider>
