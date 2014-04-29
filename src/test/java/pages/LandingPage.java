@@ -48,8 +48,8 @@ public class LandingPage extends TargetBasePage {
     }
 
     public void loginToWebsiteWith(String userName, String password) {
-        waitForElementToBeClickable(signinLink);
         signinLink.click();
+        waitForElementToBeVisible(emailOverlayTextBox);
         emailOverlayTextBox.sendKeys(userName);
         passwordOverlayTextBox.sendKeys(password);
         signInButton.click();

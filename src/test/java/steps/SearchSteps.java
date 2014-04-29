@@ -22,6 +22,7 @@ public class SearchSteps extends BaseSteps {
         System.out.println("inside setup");
         pageStore = new PageStore();
         System.out.println("launching website");
+
         pageStore.getDriver().get("http://www.target.com");
         System.out.println("website launched");
 //        pageStore.getDriver().manage().window().maximize();
@@ -30,7 +31,7 @@ public class SearchSteps extends BaseSteps {
     @After
     public void tearDown(Scenario scenario) {
         embedScreenshot(scenario);
-        pageStore.destroy();
+//        pageStore.destroy();
     }
 
     public void embedScreenshot(Scenario scenario) {

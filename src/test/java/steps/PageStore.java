@@ -1,10 +1,7 @@
 package steps;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.ArrayList;
@@ -18,6 +15,8 @@ public class PageStore {
     List<Object> pages;
 
     public PageStore() {
+
+//        System.setProperty("webdriver.chrome.driver", "/Users/panikumar/Downloads/chromedriver");
         webDriver = new FirefoxDriver();
         pages = new ArrayList<Object>();
     }
