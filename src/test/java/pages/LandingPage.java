@@ -25,7 +25,7 @@ public class LandingPage extends TargetBasePage {
     @FindBy(id = "searchMagnify")
     private WebElement searchButton;
 
-    @FindBy(linkText = "sign in")
+    @FindBy(id = "OpenLoginPopup")
     private WebElement signinLink;
 
     @FindBy(id = "email-address")
