@@ -25,13 +25,13 @@ public class SearchSteps extends BaseSteps {
 
         pageStore.getDriver().get("http://www.target.com");
         System.out.println("website launched");
-//        pageStore.getDriver().manage().window().maximize();
+        pageStore.getDriver().manage().window().maximize();
     }
 
     @After
     public void tearDown(Scenario scenario) {
         embedScreenshot(scenario);
-//        pageStore.destroy();
+        pageStore.destroy();
     }
 
     public void embedScreenshot(Scenario scenario) {

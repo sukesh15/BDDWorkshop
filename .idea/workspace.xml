@@ -30,11 +30,12 @@
     <file path="/.name" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1396946691693" ignored="false" />
     <file path="/BillingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398424069234" ignored="false" />
     <file path="/CartViewSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1397835539498" ignored="false" />
-    <file path="/DataDrivenExample.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398659932936" ignored="false" />
+    <file path="/DataDrivenExample.feature" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398832019347" ignored="false" />
     <file path="/ShippingPage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398612168445" ignored="false" />
     <file path="/RunCukesTest.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398760791406" ignored="false" />
     <file path="/pom.xml" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398761420136" ignored="false" />
     <file path="/TargetBasePage.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398767801849" ignored="false" />
+    <file path="$PROJECT_DIR$/src/test/java/steps/BaseSteps.java" changelist="ca8c30bc-01f5-43bb-aed7-905b82135ca5" time="1398831869939" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -138,6 +138,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -150,7 +151,7 @@
       <file leaf-file-name="DataDrivenExample.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+            <state line="6" column="28" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,8 +214,10 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="50" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.5185185">
-              <folding />
+            <state line="50" column="0" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.38050315">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +225,7 @@
       <file leaf-file-name="SearchSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="49" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+            <state line="75" column="52" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -258,10 +261,10 @@
         <option value="$PROJECT_DIR$/src/test/resources/TargetE2E.feature" />
         <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TargetBasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/PageStore.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
       </list>
     </option>
@@ -308,7 +311,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1680" />
-    <option name="height" value="935" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -337,6 +340,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,7 +431,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,7 +438,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -443,9 +446,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -581,19 +584,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <option name="GLUE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -623,17 +624,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -734,7 +737,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="935" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -745,13 +748,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3226994" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32218844" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67150635" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17992656" sideWeight="0.5595092" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4404908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17992656" sideWeight="0.5607903" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43920973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -800,7 +803,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -887,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="87" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="54" selection-start="230" selection-end="236" vertical-scroll-proportion="0.0">
@@ -922,24 +918,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/TargetE2E.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="87" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/DataDrivenExample.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+        <state line="6" column="28" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="49" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+        <state line="75" column="52" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="50" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.5185185">
-          <folding />
+        <state line="50" column="0" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.38050315">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +953,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

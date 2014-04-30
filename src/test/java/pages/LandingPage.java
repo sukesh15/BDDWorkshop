@@ -48,7 +48,6 @@ public class LandingPage extends TargetBasePage {
     }
 
     public void loginToWebsiteWith(String userName, String password) {
-        System.out.println(driver.getPageSource());
         signinLink.click();
         waitForElementToBeVisible(emailOverlayTextBox);
         emailOverlayTextBox.sendKeys(userName);
